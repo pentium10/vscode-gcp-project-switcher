@@ -1,6 +1,6 @@
 ## Features
 
-Google Cloud Platform Project Switcher helps displaying the current GCP project in VS Code's statusbar, and you can are able to quickly change between multiple projects. Work well when working or deploying with `gsutil` tool from terminal, or from pre-configured tasks. Like quickly deploy to Cloud Run. 
+Google Cloud Platform Project Switcher helps displaying the current GCP project in VS Code's statusbar, and you can quickly change between multiple projects. Work well when working or deploying with `gsutil` tool from terminal, or from pre-configured tasks. Like quickly deploy to Cloud Run. 
 
 ![status bar](images/status_bar.png)
 

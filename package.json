@@ -1,8 +1,8 @@
 {
 	"name": "vscode-gcp-project-switcher",
 	"displayName": "GCP Project Switcher",
-	"description": "This extension allows you to switch your GCP project directly inside Visual Studio Code.",
-	"version": "1.0.1",
+	"description": "This extension allows you to switch your GCP project directly from Visual Studio Code status bar.",
+	"version": "1.0.5",
 	"publisher": "pentium10",
 	"engines": {
 		"vscode": "^1.38.0"
@@ -35,7 +35,7 @@
 		"onCommand:vscode-gcp-project-switcher.fetchProjects",
 		"onCommand:vscode-gcp-project-switcher.fetchCurrentProject"
 	],
-	"main": "./out/extension.js",
+	"main": "./out/extension",
 	"contributes": {
 		"commands": [
 			{
@@ -61,13 +61,13 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.38.0",
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.0.0",
-		"@types/node": "^12.11.7",
+		"@types/node": "^12.19.4",
+		"@types/vscode": "^1.38.0",
+		"@typescript-eslint/eslint-plugin": "^4.7.0",
+		"@typescript-eslint/parser": "^4.7.0",
 		"eslint": "^7.9.0",
-		"@typescript-eslint/eslint-plugin": "^4.1.1",
-		"@typescript-eslint/parser": "^4.1.1",
 		"glob": "^7.1.6",
 		"mocha": "^8.1.3",
 		"typescript": "^4.0.2",
