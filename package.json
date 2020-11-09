@@ -2,7 +2,7 @@
 	"name": "vscode-gcp-project-switcher",
 	"displayName": "GCP Project Switcher",
 	"description": "This extension allows you to switch your GCP project directly inside Visual Studio Code.",
-	"version": "1.1.0",
+	"version": "1.0.1",
 	"publisher": "pentium10",
 	"engines": {
 		"vscode": "^1.38.0"
