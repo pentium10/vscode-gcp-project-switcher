@@ -4,6 +4,6 @@ All notable changes to the "vscode-gcp-project-switcher" extension will be docum
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [v1.0.x]
 
 - Initial release
