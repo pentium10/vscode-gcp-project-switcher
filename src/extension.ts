@@ -120,7 +120,7 @@ export function refreshStatusBar(project: string): void {
 	}
 
 	nativeStatusBar.text = codicons.cloud + ' ' + project;
-	nativeStatusBar.tooltip = 'gsutil current project: ' + project;
+	nativeStatusBar.tooltip = 'gcloud current project: ' + project;
 	nativeStatusBar.command = "vscode-gcp-project-switcher.listProjects"
 
 	nativeStatusBar.show();

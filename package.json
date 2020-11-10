@@ -2,7 +2,7 @@
 	"name": "vscode-gcp-project-switcher",
 	"displayName": "GCP Project Switcher",
 	"description": "This extension allows you to switch your GCP project directly from Visual Studio Code status bar.",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"publisher": "pentium10",
 	"engines": {
 		"vscode": "^1.38.0"
@@ -13,7 +13,7 @@
 	"keywords": [
 		"gcp",
 		"google cloud platform",
-		"gsutil",
+		"gcloud",
 		"project",
 		"switch",
 		"manage"
